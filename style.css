@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    margin: auto;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.cell {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: auto;
+    width: 150px;
+    height: 150px;
+}
+
+#score, #time {
+    font-size: 1.8em;
+    padding: 15px;
+    float: left;
+    display: none;
+}
+
+#butt {
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+}
+
+#start {
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 10px;
+}
